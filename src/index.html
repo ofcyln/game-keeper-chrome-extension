@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Keeper</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+          width: 400px;
+          font-family: 'Arial', sans-serif;
+        }
+      </style>
+</head>
+
+<body class="bg-gray-100 p-4">
+    <div class="bg-white rounded-lg p-6 shadow-md">
+        <div class="flex flex-col items-center mb-4">
+            <img src="images/logo.png" alt="IGN Logo" class="w-30 h-30 mr-2">
+            <h2 class="text-md mb-4">Create a personal game list from IGN reviews.</h2>
+        </div>
+
+        <button id="addGameToList" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">Add Game to List</button>
+
+        <div id="errorMessage" class="mt-4"></div>
+
+        <div id="gameList" class="mt-4"></div>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>

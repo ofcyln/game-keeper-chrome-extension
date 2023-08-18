@@ -1,0 +1,22 @@
+{
+  "name": "game-keeper-chrome-extension",
+  "version": "1.0.0",
+  "description": "Create a personal game playlist from IGN reviews.",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofcyln/game-keeper-chrome-extension.git"
+  },
+  "author": "Osman Fikret Ceylan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ofcyln/game-keeper-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/ofcyln/game-keeper-chrome-extension#readme",
+  "devdependencies": {
+    "live-server": "^1.2.2"
+  }
+}
